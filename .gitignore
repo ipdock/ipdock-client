@@ -1,4 +1,12 @@
-*.go
-Dockerfile
-go.*
+# Binaries
 ipdock-client
+ipdock-client-*
+*.exe
+
+# Build output
+dist/
+
+# Go
+*.test
+*.out
+vendor/
